@@ -36,7 +36,7 @@ if ($register == false)
         }
       else
         {
-	echo "\e[!] Trying to redeem Voucher : COBAGORIDEPAY !\n";
+	echo "\e[!] Trying to redeem Voucher : COBAINGORIDE !\n";
         $claim = claim1($verif);
         if ($claim == false){
             echo "\e[!] Failed to Claim Voucher, Try to Claim Manually\n";
@@ -46,7 +46,7 @@ if ($register == false)
             }else{
                 echo "\e[+] ".$claim."\n";
 				    sleep(3);
-                echo "\e[!] Trying to redeem Voucher : COBAGOCARPAY !\n";
+                echo "\e[!] Trying to redeem Voucher : COBAINGOCAR !\n";
                 sleep(3);
                 goto ride;
             }

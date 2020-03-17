@@ -12,7 +12,7 @@ $header[] = "X-AppVersion: 3.46.1"; // ubah sesuai clone lu
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: en_ID";
-$header[] = "X-Location: -7.2474107,112.7492658";
+$header[] = "X-Location: -7.270706,106.841646";
 $header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
